@@ -1,11 +1,13 @@
 We assume that you already know how to run the Google App Engine
 applications from a command line, but if not you should refer to the
 [documentation](https://developers.google.com/appengine/docs/python/gettingstartedpython27/helloworld).
-Execute in your terminal the `run.py` from the root directory
+
+Since gae-init uses Gulp to build assets and bower to manage JavaScript libraries, you'll need to run
+bower to get started:
 
 ```bash
-$ cd /path/to/phonebook
-$ ./run.py -s
+npm install
+gulp
 ```
 
 If everything went smoothly you can test the application by visiting the
